@@ -1,0 +1,12 @@
+title: Icelandic Lifting Stones
+theme: jekyll-theme-cayman
+collections:
+  lifting_stones:
+    output: true
+
+
+defaults:
+  - scope:
+      type: "lifting_stones"
+    values:
+      layout: lifting_stone
