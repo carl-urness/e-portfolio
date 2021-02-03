@@ -1,5 +1,5 @@
 ---
-title: Brynjolfstak Stone
+title: Brynjolfstak Ston
 source: https://www.roguefitness.com/fullsterkur
 category: fullsterkur
 image: /assets/images/brynjolfstak.jpg
