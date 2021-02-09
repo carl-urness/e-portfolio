@@ -4,7 +4,7 @@ layout: page
 permalink: /about/
 ---
 <div class="content-left" markdown="1">
-My name is Carl Urness.  This site has been built as part of a graduation requirement to complete a master's degree at Dominican University.  Components of my ePortfolio include:
+My name is Carl Urness.  This site has been built as part of a graduation requirement to complete a master's degree at Dominican University.  Components of my e-Portfolio include:
 
 - Table of Contents
 - Current Resume
