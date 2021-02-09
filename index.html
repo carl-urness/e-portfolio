@@ -23,32 +23,32 @@ layout: default
   <div class="card-body ">
     <div class="tab-content">
       <div class="tab-pane active show" id="alpha">
-        {% for content in site.contents %}
+        {% for lifting_stone in site.lifting_stones %}
           <div class="stone-teaser clearfix">
             <div class="img-left teaser-image">
-              <a href="{{ content.url | relative_url }}" alt="go to the detail page"><img src="{{ content.image | relative_url }}" alt="photo of {{ content.title }}" /></a>
+              <a href="{{ lifting_stone.url | relative_url }}" alt="go to the detail page"><img src="{{ lifting_stone.image | relative_url }}" alt="photo of {{ lifting_stone.title }}" /></a>
             </div>
             <div class="teaser-content">
-              <h2><a href="{{ content.url | relative_url }}" alt="go to the detail page">{{ content.title }}</a></h2>
-              <p>{{ content.content | truncatewords: 44, '...' }}</p>
-              <p><small>Weight category: <em>{{ content.category }}</em></small></p>
-              <p><a href="{{ content.source }}" target="_blank">Source</a></p>
+              <h2><a href="{{ lifting_stone.url | relative_url }}" alt="go to the detail page">{{ lifting_stone.title }}</a></h2>
+              <p>{{ lifting_stone.content | truncatewords: 44, '...' }}</p>
+              <p><small>Weight category: <em>{{ lifting_stone.category }}</em></small></p>
+              <p><a href="{{ lifting_stone.source }}" target="_blank">Source</a></p>
             </div>
           </div>
         {% endfor %}
       </div>
       <div class="tab-pane" id="weight">
-        {% assign sorted_stones = site.contents | sort: "category" %}
-        {% for content in sorted_stones %}
+        {% assign sorted_stones = site.lifting_stones | sort: "category" %}
+        {% for lifting_stone in sorted_stones %}
           <div class="stone-teaser clearfix">
             <div class="img-left teaser-image">
-              <a href="{{ content.url | relative_url }}" alt="go to the detail page"><img src="{{ content.image | relative_url }}" alt="photo of {{ content.title }}" /></a>
+              <a href="{{ lifting_stone.url | relative_url }}" alt="go to the detail page"><img src="{{ lifting_stone.image | relative_url }}" alt="photo of {{ lifting_stone.title }}" /></a>
             </div>
             <div class="teaser-content">
-              <h2><a href="{{ content.url | relative_url }}" alt="go to the detail page">{{ content.title }}</a></h2>
-              <p>{{ content.content | truncatewords: 44, '...' }}</p>
-              <p><small>Weight category: <em>{{ content.category }}</em></small></p>
-              <p><a href="{{ content.source }}" target="_blank">Source</a></p>
+              <h2><a href="{{ lifting_stone.url | relative_url }}" alt="go to the detail page">{{ lifting_stone.title }}</a></h2>
+              <p>{{ lifting_stone.content | truncatewords: 44, '...' }}</p>
+              <p><small>Weight category: <em>{{ lifting_stone.category }}</em></small></p>
+              <p><a href="{{ lifting_stone.source }}" target="_blank">Source</a></p>
             </div>
           </div>
         {% endfor %}

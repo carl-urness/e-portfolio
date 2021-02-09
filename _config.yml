@@ -1,12 +1,12 @@
 title: Carl's e-Portfolio Site
 theme: jekyll-theme-cayman
 collections:
-  contents:
+  lifting_stones:
     output: true
 
 
 defaults:
   - scope:
-      type: "contents"
+      type: "lifting_stones"
     values:
-      layout: content
+      layout: lifting_stone
