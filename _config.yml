@@ -1,12 +1,12 @@
-title: Icelandic Lifting Stones
+title: Carl's e-Portfolio Site
 theme: jekyll-theme-cayman
 collections:
-  lifting_stones:
+  contents:
     output: true
 
 
 defaults:
   - scope:
-      type: "lifting_stones"
+      type: "contents"
     values:
-      layout: lifting_stone
+      layout: content

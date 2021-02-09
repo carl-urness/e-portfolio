@@ -4,16 +4,16 @@ layout: page
 permalink: /about/
 ---
 <div class="content-left" markdown="1">
-In Iceland, lifting stones were categorized into the
+My name is Carl Urness.  This site has been built as part of a graduation requirement to complete a master's degree at Dominican University.  Components of my ePortfolio include:
 
-- fullsterkur ("full strength") weighing 155 kg (341 pounds)
-- hálfsterkur ("half strength") at 104 kg (228.8 pounds)
-- hálfdrættingur ("weakling") at 49 kg (107.8 pounds) and
-- amlóði ("useless") at 23 kg (50.6 pounds)
+- Table of Contents
+- Current Resume
+- A Reflective Essay
+- Evidence or Artifacts (Items that demonstrate my competencies in relation to the program's five learning goals)
 
-They were traditionally used to qualify men for work on fishing boats, with the hálfsterkur being the minimum weight a man would have to lift onto a ledge at hip-height to qualify. One such set of stones can be found on the beach of Djúpalónssandur at the foot of Snæfellsjökull. One of the most famous Icelandic stones is the Husafell Stone which weighs 190 kg (418 lb).
+The program I completed is the School of Information Studies:  Master's of Science in Information Management.
 
-Source: [Wikipedia](https://en.wikipedia.org/wiki/Lifting_stone)
+Here is a link to the program's site: [Dominican University](https://www.dom.edu/admission/graduate/information-studies-programs/msim)
 </div>
 <div class="img-right" markdown="1">
 ![Image of lifting stones](/assets/images/stones.jpg)
