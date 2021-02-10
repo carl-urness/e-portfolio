@@ -4,7 +4,7 @@ category: Professional
 image: /assets/images/brynjolfstak.jpg
 permalink: /resume/
 ---
-Experience
+<h2>Experience</h2>
 Delivery Leadership | Slalom Consulting | Chicago Oct 2018 - Present
 - Cloud Integration Consultant
 Implemented global planning SaaS for a Life Sciences client, discovery of 100+ data dependencies
